@@ -601,6 +601,11 @@ textarea {
 }
 
 /*CONTACTOS - FIN*/
+@media only screen and (max-width: 991px) {
+  .description-recipes-text {
+    padding: 0;
+  }
+}
 @media only screen and (min-width: 768px) {
   .nav-link:hover {
     transform: scale(1.2);
@@ -710,7 +715,7 @@ textarea {
   }
 
   .description-recipes-text {
-    padding-left: 15%;
+    padding: 0 15% 0 15%;
   }
 
   .chef {
