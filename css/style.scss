@@ -39,6 +39,9 @@ span{
     font-family: $fonts-1;
     font-style: oblique;
 }
+li{
+    @extend p;
+}
 h1{
     padding-top: calc(1.3em + 1.3vw);
     padding-bottom: calc(1.2em + 1.2vw);
@@ -115,7 +118,7 @@ h1{
     }
 }
 .nav-link{
-    font-size: 18px;
+    font-size: 20px;
 }
 .name--style{
     font-family: $fonts-2;
@@ -349,7 +352,6 @@ $redes:(
 /*PAGE - NOSOTROS*/
 .color--gradient{
     background: linear-gradient(to top, rgba(255, 255, 255, .6), rgba(255,255,255, 1));
-    @include backgrounds(cover,none,center);
 }
 .about-us{
     text-align: justify;
@@ -431,7 +433,6 @@ $redes:(
         position: relative;
         color: map-get($estilos,color);
         text-align: map-get($estilos,centro);
-        text-shadow: -1px -1px 1px black;
     }
     h4{
         font-family: $fonts-2;
@@ -440,6 +441,12 @@ $redes:(
     }
     ul li{
         list-style: circle;
+    }
+}
+.main__list-recipes--color{
+    color: $color2;
+    h3{
+        color: $color2;
     }
 }
 /*PAGE - RECETAS - FIN*/

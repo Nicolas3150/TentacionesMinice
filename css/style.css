@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
-p {
+p, li {
   font-family: "Roboto Slab", serif;
   font-size: 18px;
 }
@@ -110,7 +110,7 @@ h1 {
 }
 
 .nav-link {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .name--style {
@@ -371,7 +371,7 @@ h1 {
 .box-product {
   padding: 50px 50px 100px 50px;
 }
-.box-product p {
+.box-product p, .box-product li {
   text-align: justify;
 }
 
@@ -432,9 +432,6 @@ h1 {
 /*PAGE - NOSOTROS*/
 .color--gradient {
   background: linear-gradient(to top, rgba(255, 255, 255, 0.6), white);
-  background-size: cover;
-  background-repeat: none;
-  background-position: center;
 }
 
 .about-us {
@@ -544,7 +541,6 @@ h1 {
   position: relative;
   color: #EE25E8;
   text-align: center;
-  text-shadow: -1px -1px 1px black;
 }
 .main__list-recipes h4 {
   font-family: "DancingScript";
@@ -553,6 +549,13 @@ h1 {
 }
 .main__list-recipes ul li {
   list-style: circle;
+}
+
+.main__list-recipes--color {
+  color: white;
+}
+.main__list-recipes--color h3 {
+  color: white;
 }
 
 /*PAGE - RECETAS - FIN*/
